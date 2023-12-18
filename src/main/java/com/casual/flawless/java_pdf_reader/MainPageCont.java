@@ -3,7 +3,7 @@ package com.casual.flawless.java_pdf_reader;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class HelloController {
+public class MainPageCont {
     @FXML
     private Label welcomeText;
 
