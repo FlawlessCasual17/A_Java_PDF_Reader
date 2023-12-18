@@ -1,4 +1,4 @@
-module com.casual.flawless.pdf_reader {
+module com.casual.flawless.java_pdf_reader {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -10,6 +10,6 @@ module com.casual.flawless.pdf_reader {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
 
-    opens com.casual.flawless.pdf_reader to javafx.fxml;
-    exports com.casual.flawless.pdf_reader;
+    opens com.casual.flawless.java_pdf_reader to javafx.fxml;
+    exports com.casual.flawless.java_pdf_reader;
 }

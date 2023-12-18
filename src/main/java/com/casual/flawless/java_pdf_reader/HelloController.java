@@ -1,4 +1,4 @@
-package com.casual.flawless.pdf_reader;
+package com.casual.flawless.java_pdf_reader;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

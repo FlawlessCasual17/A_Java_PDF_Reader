@@ -1,4 +1,4 @@
-package com.casual.flawless.pdf_reader;
+package com.casual.flawless.java_pdf_reader;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -11,9 +11,7 @@ public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        stage.setTitle("Hello!");
-        stage.setScene(scene);
+        Scene scene = new Scene(fxmlLoader.load(), 320, 240); stage.setTitle("Hello!"); stage.setScene(scene);
         stage.show();
     }
 

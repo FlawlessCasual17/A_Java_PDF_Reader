@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="PDF_Reader" />
-      </profile>
-    </annotationProcessing>
-    <bytecodeTargetLevel target="19">
-      <module name="A_Java_PDF_Reader" target="19" />
-      <module name="com.casual.flawless.src.main" target="19" />
-      <module name="com.casual.flawless.src.test" target="19" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="21" />
   </component>
 </project>
